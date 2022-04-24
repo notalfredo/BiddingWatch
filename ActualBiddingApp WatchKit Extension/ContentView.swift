@@ -16,24 +16,32 @@ struct ContentView: View {
 
     @GestureState private var pressed = false
     
+    @State private var alertIsPresented = false
+    
     var body: some View {
         VStack{
             Button(action:{
                 self.didTap = true
+                self.alertIsPresented = true
             }){
                 Text("A")
             }
             .background(Color.red )
             .opacity(didTap ? 0.5 : 1.0)
             .cornerRadius(30)
+            .alert(isPresented: $alertIsPresented, content: {Alert(title: Text("Bid placed"), message: Text("Bid was Successful!"), dismissButton: .default(Text("Got It!")))})
+            
+            
             
             Button(action:{
-                
             }){
                 Text("B")
             }
             .background(Color.green )
             .cornerRadius(30)
+            
+            
+            
             
             Button(action:{
 

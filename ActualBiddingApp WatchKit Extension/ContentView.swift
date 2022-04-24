@@ -9,15 +9,35 @@
 import SwiftUI
 
 
+class FormViewModel: ObservableObject{
+    @State var codeEnter = " "
+    
+    
+}
+
+
+
+
+
 
 struct ContentView: View{
+    
+    @State var codeEnter = " "
+
     var body: some View {
         NavigationView{
             VStack{
+                Form{
+                    Section{
+                        TextField("Enter the Code", text:
+                                    $codeEnter)
+                    }
+                }.offset(y : 30)
+                
    
                 NavigationLink(destination: QuizView()) {
                     Text("Enter Code")
-                }
+                }.offset(y : -30)
                 
                 
             

@@ -8,7 +8,34 @@
 
 import SwiftUI
 
-struct ContentView: View {
+
+
+struct ContentView: View{
+    var body: some View {
+        NavigationView{
+            VStack{
+   
+                NavigationLink(destination: QuizView()) {
+                    Text("Enter Code")
+                }
+                
+                
+            
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+struct QuizView: View {
     @State var countDownTimer = 15;
     @State var timeRunning = true;
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()

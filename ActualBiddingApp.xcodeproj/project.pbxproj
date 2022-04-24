@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C102AB82814CBD100184A91 /* ActualBiddingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AB72814CBD100184A91 /* ActualBiddingAppApp.swift */; };
+		3C102ABA2814CBD100184A91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AB92814CBD100184A91 /* ContentView.swift */; };
+		3C102ABC2814CBD200184A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C102ABB2814CBD200184A91 /* Assets.xcassets */; };
+		3C102ABF2814CBD200184A91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C102ABE2814CBD200184A91 /* Preview Assets.xcassets */; };
+		3C102AC92814CBD300184A91 /* ActualBiddingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AC82814CBD300184A91 /* ActualBiddingAppTests.swift */; };
+		3C102AD32814CBD300184A91 /* ActualBiddingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AD22814CBD300184A91 /* ActualBiddingAppUITests.swift */; };
+		3C102AD52814CBD300184A91 /* ActualBiddingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AD42814CBD300184A91 /* ActualBiddingAppUITestsLaunchTests.swift */; };
+		3C102AD92814CBD300184A91 /* ActualBiddingApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3C102AD82814CBD300184A91 /* ActualBiddingApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C102ADE2814CBD400184A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C102ADD2814CBD400184A91 /* Assets.xcassets */; };
+		3C102AE42814CBD400184A91 /* ActualBiddingApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C102AE32814CBD400184A91 /* ActualBiddingApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C102AE92814CBD400184A91 /* ActualBiddingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AE82814CBD400184A91 /* ActualBiddingAppApp.swift */; };
+		3C102AEB2814CBD400184A91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AEA2814CBD400184A91 /* ContentView.swift */; };
+		3C102AED2814CBD400184A91 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AEC2814CBD400184A91 /* NotificationController.swift */; };
+		3C102AEF2814CBD400184A91 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AEE2814CBD400184A91 /* NotificationView.swift */; };
+		3C102AF12814CBD400184A91 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102AF02814CBD400184A91 /* ComplicationController.swift */; };
+		3C102AF32814CBD500184A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C102AF22814CBD500184A91 /* Assets.xcassets */; };
+		3C102AF62814CBD500184A91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C102AF52814CBD500184A91 /* Preview Assets.xcassets */; };
+		3C102B022814CBD500184A91 /* ActualBiddingApp_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102B012814CBD500184A91 /* ActualBiddingApp_WatchKit_AppTests.swift */; };
+		3C102B0C2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102B0B2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITests.swift */; };
+		3C102B0E2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C102B0D2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C102AC52814CBD300184A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C102AAC2814CBD100184A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C102AB32814CBD100184A91;
+			remoteInfo = ActualBiddingApp;
+		};
+		3C102ACF2814CBD300184A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C102AAC2814CBD100184A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C102AB32814CBD100184A91;
+			remoteInfo = ActualBiddingApp;
+		};
+		3C102ADA2814CBD300184A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C102AAC2814CBD100184A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C102AD72814CBD300184A91;
+			remoteInfo = "ActualBiddingApp WatchKit App";
+		};
+		3C102AE52814CBD400184A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C102AAC2814CBD100184A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C102AE22814CBD400184A91;
+			remoteInfo = "ActualBiddingApp WatchKit Extension";
+		};
+		3C102AFE2814CBD500184A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C102AAC2814CBD100184A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C102AE22814CBD400184A91;
+			remoteInfo = "ActualBiddingApp WatchKit Extension";
+		};
+		3C102B082814CBD500184A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C102AAC2814CBD100184A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C102AD72814CBD300184A91;
+			remoteInfo = "ActualBiddingApp WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C102B142814CBD500184A91 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C102AE42814CBD400184A91 /* ActualBiddingApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102B182814CBD500184A91 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3C102AD92814CBD300184A91 /* ActualBiddingApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C102AB42814CBD100184A91 /* ActualBiddingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActualBiddingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C102AB72814CBD100184A91 /* ActualBiddingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBiddingAppApp.swift; sourceTree = "<group>"; };
+		3C102AB92814CBD100184A91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C102ABB2814CBD200184A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C102ABE2814CBD200184A91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C102AC42814CBD300184A91 /* ActualBiddingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActualBiddingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C102AC82814CBD300184A91 /* ActualBiddingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBiddingAppTests.swift; sourceTree = "<group>"; };
+		3C102ACE2814CBD300184A91 /* ActualBiddingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActualBiddingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C102AD22814CBD300184A91 /* ActualBiddingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBiddingAppUITests.swift; sourceTree = "<group>"; };
+		3C102AD42814CBD300184A91 /* ActualBiddingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBiddingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C102AD82814CBD300184A91 /* ActualBiddingApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ActualBiddingApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C102ADD2814CBD400184A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C102AE32814CBD400184A91 /* ActualBiddingApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ActualBiddingApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C102AE82814CBD400184A91 /* ActualBiddingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBiddingAppApp.swift; sourceTree = "<group>"; };
+		3C102AEA2814CBD400184A91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C102AEC2814CBD400184A91 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3C102AEE2814CBD400184A91 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		3C102AF02814CBD400184A91 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3C102AF22814CBD500184A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C102AF52814CBD500184A91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C102AF72814CBD500184A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C102AF82814CBD500184A91 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3C102AFD2814CBD500184A91 /* ActualBiddingApp WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ActualBiddingApp WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C102B012814CBD500184A91 /* ActualBiddingApp_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBiddingApp_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		3C102B072814CBD500184A91 /* ActualBiddingApp WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ActualBiddingApp WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C102B0B2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBiddingApp_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		3C102B0D2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualBiddingApp_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C102AB12814CBD100184A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102AC12814CBD300184A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102ACB2814CBD300184A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102AE02814CBD400184A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102AFA2814CBD500184A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102B042814CBD500184A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C102AAB2814CBD100184A91 = {
+			isa = PBXGroup;
+			children = (
+				3C102AB62814CBD100184A91 /* ActualBiddingApp */,
+				3C102AC72814CBD300184A91 /* ActualBiddingAppTests */,
+				3C102AD12814CBD300184A91 /* ActualBiddingAppUITests */,
+				3C102ADC2814CBD300184A91 /* ActualBiddingApp WatchKit App */,
+				3C102AE72814CBD400184A91 /* ActualBiddingApp WatchKit Extension */,
+				3C102B002814CBD500184A91 /* ActualBiddingApp WatchKit AppTests */,
+				3C102B0A2814CBD500184A91 /* ActualBiddingApp WatchKit AppUITests */,
+				3C102AB52814CBD100184A91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C102AB52814CBD100184A91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C102AB42814CBD100184A91 /* ActualBiddingApp.app */,
+				3C102AC42814CBD300184A91 /* ActualBiddingAppTests.xctest */,
+				3C102ACE2814CBD300184A91 /* ActualBiddingAppUITests.xctest */,
+				3C102AD82814CBD300184A91 /* ActualBiddingApp WatchKit App.app */,
+				3C102AE32814CBD400184A91 /* ActualBiddingApp WatchKit Extension.appex */,
+				3C102AFD2814CBD500184A91 /* ActualBiddingApp WatchKit AppTests.xctest */,
+				3C102B072814CBD500184A91 /* ActualBiddingApp WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C102AB62814CBD100184A91 /* ActualBiddingApp */ = {
+			isa = PBXGroup;
+			children = (
+				3C102AB72814CBD100184A91 /* ActualBiddingAppApp.swift */,
+				3C102AB92814CBD100184A91 /* ContentView.swift */,
+				3C102ABB2814CBD200184A91 /* Assets.xcassets */,
+				3C102ABD2814CBD200184A91 /* Preview Content */,
+			);
+			path = ActualBiddingApp;
+			sourceTree = "<group>";
+		};
+		3C102ABD2814CBD200184A91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C102ABE2814CBD200184A91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C102AC72814CBD300184A91 /* ActualBiddingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C102AC82814CBD300184A91 /* ActualBiddingAppTests.swift */,
+			);
+			path = ActualBiddingAppTests;
+			sourceTree = "<group>";
+		};
+		3C102AD12814CBD300184A91 /* ActualBiddingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C102AD22814CBD300184A91 /* ActualBiddingAppUITests.swift */,
+				3C102AD42814CBD300184A91 /* ActualBiddingAppUITestsLaunchTests.swift */,
+			);
+			path = ActualBiddingAppUITests;
+			sourceTree = "<group>";
+		};
+		3C102ADC2814CBD300184A91 /* ActualBiddingApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				3C102ADD2814CBD400184A91 /* Assets.xcassets */,
+			);
+			path = "ActualBiddingApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		3C102AE72814CBD400184A91 /* ActualBiddingApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C102AE82814CBD400184A91 /* ActualBiddingAppApp.swift */,
+				3C102AEA2814CBD400184A91 /* ContentView.swift */,
+				3C102AEC2814CBD400184A91 /* NotificationController.swift */,
+				3C102AEE2814CBD400184A91 /* NotificationView.swift */,
+				3C102AF02814CBD400184A91 /* ComplicationController.swift */,
+				3C102AF22814CBD500184A91 /* Assets.xcassets */,
+				3C102AF72814CBD500184A91 /* Info.plist */,
+				3C102AF82814CBD500184A91 /* PushNotificationPayload.apns */,
+				3C102AF42814CBD500184A91 /* Preview Content */,
+			);
+			path = "ActualBiddingApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3C102AF42814CBD500184A91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C102AF52814CBD500184A91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C102B002814CBD500184A91 /* ActualBiddingApp WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C102B012814CBD500184A91 /* ActualBiddingApp_WatchKit_AppTests.swift */,
+			);
+			path = "ActualBiddingApp WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		3C102B0A2814CBD500184A91 /* ActualBiddingApp WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C102B0B2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITests.swift */,
+				3C102B0D2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "ActualBiddingApp WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C102AB32814CBD100184A91 /* ActualBiddingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C102B192814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp" */;
+			buildPhases = (
+				3C102AB02814CBD100184A91 /* Sources */,
+				3C102AB12814CBD100184A91 /* Frameworks */,
+				3C102AB22814CBD100184A91 /* Resources */,
+				3C102B182814CBD500184A91 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C102ADB2814CBD300184A91 /* PBXTargetDependency */,
+			);
+			name = ActualBiddingApp;
+			productName = ActualBiddingApp;
+			productReference = 3C102AB42814CBD100184A91 /* ActualBiddingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C102AC32814CBD300184A91 /* ActualBiddingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C102B1C2814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingAppTests" */;
+			buildPhases = (
+				3C102AC02814CBD300184A91 /* Sources */,
+				3C102AC12814CBD300184A91 /* Frameworks */,
+				3C102AC22814CBD300184A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C102AC62814CBD300184A91 /* PBXTargetDependency */,
+			);
+			name = ActualBiddingAppTests;
+			productName = ActualBiddingAppTests;
+			productReference = 3C102AC42814CBD300184A91 /* ActualBiddingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C102ACD2814CBD300184A91 /* ActualBiddingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C102B1F2814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingAppUITests" */;
+			buildPhases = (
+				3C102ACA2814CBD300184A91 /* Sources */,
+				3C102ACB2814CBD300184A91 /* Frameworks */,
+				3C102ACC2814CBD300184A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C102AD02814CBD300184A91 /* PBXTargetDependency */,
+			);
+			name = ActualBiddingAppUITests;
+			productName = ActualBiddingAppUITests;
+			productReference = 3C102ACE2814CBD300184A91 /* ActualBiddingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3C102AD72814CBD300184A91 /* ActualBiddingApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C102B152814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp WatchKit App" */;
+			buildPhases = (
+				3C102AD62814CBD300184A91 /* Resources */,
+				3C102B142814CBD500184A91 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C102AE62814CBD400184A91 /* PBXTargetDependency */,
+			);
+			name = "ActualBiddingApp WatchKit App";
+			productName = "ActualBiddingApp WatchKit App";
+			productReference = 3C102AD82814CBD300184A91 /* ActualBiddingApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3C102AE22814CBD400184A91 /* ActualBiddingApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C102B112814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp WatchKit Extension" */;
+			buildPhases = (
+				3C102ADF2814CBD400184A91 /* Sources */,
+				3C102AE02814CBD400184A91 /* Frameworks */,
+				3C102AE12814CBD400184A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActualBiddingApp WatchKit Extension";
+			productName = "ActualBiddingApp WatchKit Extension";
+			productReference = 3C102AE32814CBD400184A91 /* ActualBiddingApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		3C102AFC2814CBD500184A91 /* ActualBiddingApp WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C102B222814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp WatchKit AppTests" */;
+			buildPhases = (
+				3C102AF92814CBD500184A91 /* Sources */,
+				3C102AFA2814CBD500184A91 /* Frameworks */,
+				3C102AFB2814CBD500184A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C102AFF2814CBD500184A91 /* PBXTargetDependency */,
+			);
+			name = "ActualBiddingApp WatchKit AppTests";
+			productName = "ActualBiddingApp WatchKit AppTests";
+			productReference = 3C102AFD2814CBD500184A91 /* ActualBiddingApp WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C102B062814CBD500184A91 /* ActualBiddingApp WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C102B252814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp WatchKit AppUITests" */;
+			buildPhases = (
+				3C102B032814CBD500184A91 /* Sources */,
+				3C102B042814CBD500184A91 /* Frameworks */,
+				3C102B052814CBD500184A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C102B092814CBD500184A91 /* PBXTargetDependency */,
+			);
+			name = "ActualBiddingApp WatchKit AppUITests";
+			productName = "ActualBiddingApp WatchKit AppUITests";
+			productReference = 3C102B072814CBD500184A91 /* ActualBiddingApp WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C102AAC2814CBD100184A91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3C102AB32814CBD100184A91 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3C102AC32814CBD300184A91 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C102AB32814CBD100184A91;
+					};
+					3C102ACD2814CBD300184A91 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C102AB32814CBD100184A91;
+					};
+					3C102AD72814CBD300184A91 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3C102AE22814CBD400184A91 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3C102AFC2814CBD500184A91 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C102AE22814CBD400184A91;
+					};
+					3C102B062814CBD500184A91 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C102AD72814CBD300184A91;
+					};
+				};
+			};
+			buildConfigurationList = 3C102AAF2814CBD100184A91 /* Build configuration list for PBXProject "ActualBiddingApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C102AAB2814CBD100184A91;
+			productRefGroup = 3C102AB52814CBD100184A91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C102AB32814CBD100184A91 /* ActualBiddingApp */,
+				3C102AC32814CBD300184A91 /* ActualBiddingAppTests */,
+				3C102ACD2814CBD300184A91 /* ActualBiddingAppUITests */,
+				3C102AD72814CBD300184A91 /* ActualBiddingApp WatchKit App */,
+				3C102AE22814CBD400184A91 /* ActualBiddingApp WatchKit Extension */,
+				3C102AFC2814CBD500184A91 /* ActualBiddingApp WatchKit AppTests */,
+				3C102B062814CBD500184A91 /* ActualBiddingApp WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C102AB22814CBD100184A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C102ABF2814CBD200184A91 /* Preview Assets.xcassets in Resources */,
+				3C102ABC2814CBD200184A91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102AC22814CBD300184A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102ACC2814CBD300184A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102AD62814CBD300184A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C102ADE2814CBD400184A91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102AE12814CBD400184A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C102AF62814CBD500184A91 /* Preview Assets.xcassets in Resources */,
+				3C102AF32814CBD500184A91 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102AFB2814CBD500184A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102B052814CBD500184A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C102AB02814CBD100184A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C102ABA2814CBD100184A91 /* ContentView.swift in Sources */,
+				3C102AB82814CBD100184A91 /* ActualBiddingAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102AC02814CBD300184A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C102AC92814CBD300184A91 /* ActualBiddingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102ACA2814CBD300184A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C102AD52814CBD300184A91 /* ActualBiddingAppUITestsLaunchTests.swift in Sources */,
+				3C102AD32814CBD300184A91 /* ActualBiddingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102ADF2814CBD400184A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C102AED2814CBD400184A91 /* NotificationController.swift in Sources */,
+				3C102AEB2814CBD400184A91 /* ContentView.swift in Sources */,
+				3C102AF12814CBD400184A91 /* ComplicationController.swift in Sources */,
+				3C102AE92814CBD400184A91 /* ActualBiddingAppApp.swift in Sources */,
+				3C102AEF2814CBD400184A91 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102AF92814CBD500184A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C102B022814CBD500184A91 /* ActualBiddingApp_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C102B032814CBD500184A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C102B0C2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITests.swift in Sources */,
+				3C102B0E2814CBD500184A91 /* ActualBiddingApp_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C102AC62814CBD300184A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C102AB32814CBD100184A91 /* ActualBiddingApp */;
+			targetProxy = 3C102AC52814CBD300184A91 /* PBXContainerItemProxy */;
+		};
+		3C102AD02814CBD300184A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C102AB32814CBD100184A91 /* ActualBiddingApp */;
+			targetProxy = 3C102ACF2814CBD300184A91 /* PBXContainerItemProxy */;
+		};
+		3C102ADB2814CBD300184A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C102AD72814CBD300184A91 /* ActualBiddingApp WatchKit App */;
+			targetProxy = 3C102ADA2814CBD300184A91 /* PBXContainerItemProxy */;
+		};
+		3C102AE62814CBD400184A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C102AE22814CBD400184A91 /* ActualBiddingApp WatchKit Extension */;
+			targetProxy = 3C102AE52814CBD400184A91 /* PBXContainerItemProxy */;
+		};
+		3C102AFF2814CBD500184A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C102AE22814CBD400184A91 /* ActualBiddingApp WatchKit Extension */;
+			targetProxy = 3C102AFE2814CBD500184A91 /* PBXContainerItemProxy */;
+		};
+		3C102B092814CBD500184A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C102AD72814CBD300184A91 /* ActualBiddingApp WatchKit App */;
+			targetProxy = 3C102B082814CBD500184A91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C102B0F2814CBD500184A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C102B102814CBD500184A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C102B122814CBD500184A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ActualBiddingApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ActualBiddingApp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActualBiddingApp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		3C102B132814CBD500184A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ActualBiddingApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ActualBiddingApp WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ActualBiddingApp WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		3C102B162814CBD500184A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ActualBiddingApp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ActualBiddingApp WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Project.ActualBiddingApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		3C102B172814CBD500184A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ActualBiddingApp_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "ActualBiddingApp WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Project.ActualBiddingApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		3C102B1A2814CBD500184A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ActualBiddingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C102B1B2814CBD500184A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ActualBiddingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C102B1D2814CBD500184A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualBiddingApp.app/ActualBiddingApp";
+			};
+			name = Debug;
+		};
+		3C102B1E2814CBD500184A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualBiddingApp.app/ActualBiddingApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C102B202814CBD500184A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ActualBiddingApp;
+			};
+			name = Debug;
+		};
+		3C102B212814CBD500184A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ActualBiddingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ActualBiddingApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C102B232814CBD500184A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.ActualBiddingApp-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualBiddingApp WatchKit Extension.appex/ActualBiddingApp WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		3C102B242814CBD500184A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.ActualBiddingApp-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualBiddingApp WatchKit Extension.appex/ActualBiddingApp WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		3C102B262814CBD500184A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.ActualBiddingApp-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ActualBiddingApp WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		3C102B272814CBD500184A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43YL7ZYXU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.ActualBiddingApp-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ActualBiddingApp WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C102AAF2814CBD100184A91 /* Build configuration list for PBXProject "ActualBiddingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C102B0F2814CBD500184A91 /* Debug */,
+				3C102B102814CBD500184A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C102B112814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C102B122814CBD500184A91 /* Debug */,
+				3C102B132814CBD500184A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C102B152814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C102B162814CBD500184A91 /* Debug */,
+				3C102B172814CBD500184A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C102B192814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C102B1A2814CBD500184A91 /* Debug */,
+				3C102B1B2814CBD500184A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C102B1C2814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C102B1D2814CBD500184A91 /* Debug */,
+				3C102B1E2814CBD500184A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C102B1F2814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C102B202814CBD500184A91 /* Debug */,
+				3C102B212814CBD500184A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C102B222814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C102B232814CBD500184A91 /* Debug */,
+				3C102B242814CBD500184A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C102B252814CBD500184A91 /* Build configuration list for PBXNativeTarget "ActualBiddingApp WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C102B262814CBD500184A91 /* Debug */,
+				3C102B272814CBD500184A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C102AAC2814CBD100184A91 /* Project object */;
+}
